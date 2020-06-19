@@ -8,7 +8,7 @@ parentdir = os.path.dirname(currentdir)
 sys.path.insert(0, parentdir)
 from Aluguel import Aluguel
 
-VALOR_NOMINAL = 400.0
+VALOR_NOMINAL = 500.0
 
 
 def test_dia_maior_que_30_MCSF():

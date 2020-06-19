@@ -25,7 +25,7 @@ Clonar esse repositório
 git clone https://github.com/mayaracsferreira/analise-valores-limites.git
 ```
 
-Entrar na pasta dp projeto
+Entrar na pasta do projeto
 ```
 cd analise-valores-limites
 ```
@@ -37,5 +37,5 @@ pip install -r requirements.txt
 
 Execução testes
 ```
-pytest tests\testes_funcionais.py
+pytest entrega_testes_funcionais\testes_funcionais.py
 ```
