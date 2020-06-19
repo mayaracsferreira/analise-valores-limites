@@ -22,6 +22,14 @@ def test_dia_menor_que_0_MCSF():
         -1, valor['valor_calculado']))
     assert valor['valor_calculado'] == -1
 
+def test_dia_0_MCSF():
+    aluguel = Aluguel(VALOR_NOMINAL, 0)
+    valor = aluguel.calcula_valor()    
+    sys.stderr.write("Esperado {} recebido {}".format(
+        -1, valor['valor_calculado']))
+    assert valor['valor_calculado'] == -1
+
+
 def test_dia_1_MCSF():
     aluguel = Aluguel(VALOR_NOMINAL, 1)
     valor = aluguel.calcula_valor()
@@ -62,17 +70,12 @@ def test_dia_11_MCSF():
         aluguel.valor_nominal, valor['valor_calculado']))
     assert valor['valor_calculado'] == aluguel.valor_nominal
 
-def test_dia_15_MCSF():
-    DIA = 15
-    aluguel = Aluguel(VALOR_NOMINAL, DIA)
-    valor = aluguel.calcula_valor()
-    multa = aluguel.valor_nominal * 0.02
-    dias_atraso = DIA - 15 
-    multa_p_dia = aluguel.valor_nominal * 0.001 * dias_atraso
-    valor_multas = aluguel.valor_nominal + multa + multa_p_dia
+def test_dia_15_MCSF():    
+    aluguel = Aluguel(VALOR_NOMINAL, 15)
+    valor = aluguel.calcula_valor()    
     sys.stderr.write("Esperado {} recebido {}".format(
-        valor_multas, valor['valor_calculado']))
-    assert valor['valor_calculado'] != valor_multas
+        aluguel.valor_nominal, valor['valor_calculado']))
+    assert valor['valor_calculado'] == aluguel.valor_nominal
 
 def test_dia_16_MCSF():
     DIA = 16
