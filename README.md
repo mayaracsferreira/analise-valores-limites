@@ -16,8 +16,8 @@ https://aluguebug.herokuapp.com/ajuda
 Laboratório de Desenvolvimento em Banco de Dados VI
 
 ## Requisitos
-Python 3.8
-PIP 20.x
+- Python 3.8
+- PIP 20.x
 
 ## Configuração e execução
 Clonar esse repositório
@@ -30,12 +30,26 @@ Entrar na pasta do projeto
 cd analise-valores-limites
 ```
 
+### Testes funcionais:
+
+Entrar na pasta da entrega
+```
+cd entrega_testes_funcionais
+```
+
 Instalação das dependências
 ```
 pip install -r requirements.txt
 ```
 
-Execução testes
+Execução testes (linha de comando)
 ```
-pytest entrega_testes_funcionais\testes_funcionais.py
+pytest testes_funcionais.py
 ```
+
+Gerar relatório em HTML
+```
+test-report.bat
+```
+
+Visualizar arquivo *report.html* no navegador
