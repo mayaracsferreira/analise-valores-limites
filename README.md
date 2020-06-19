@@ -53,3 +53,5 @@ test-report.bat
 ```
 
 Visualizar arquivo *report.html* no navegador
+
+Video da apresentação [aqui](https://drive.google.com/file/d/1ViAE6t6Z6rGa-IFLM1Axr4JIOSzMNPvM/view?usp=sharing)
