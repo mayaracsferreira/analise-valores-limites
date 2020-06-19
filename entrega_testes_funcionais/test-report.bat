@@ -1,0 +1,1 @@
+pytest --capture=sys testes_funcionais.py --html=report.html --self-contained-html 
