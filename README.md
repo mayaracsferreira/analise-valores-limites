@@ -59,7 +59,7 @@ test-report.bat
 
 Visualizar arquivo *report.html* no navegador
 
-Video da apresentação [aqui](https://drive.google.com/file/d/1sMjAMuNB9rw12HjDlWG6rC2WBkyojLlF/view?usp=sharing)
+Video da apresentação [aqui](https://drive.google.com/file/d/1ViAE6t6Z6rGa-IFLM1Axr4JIOSzMNPvM/view?usp=sharing)
 
 #### Testes funcionais parametrizados:
 Execução testes (linha de comando)
@@ -74,4 +74,4 @@ test-param-report.bat
 
 Visualizar arquivo *report-parametrized.html* no navegador
 
-Video da apresentação [aqui](https://drive.google.com/file/d/1ViAE6t6Z6rGa-IFLM1Axr4JIOSzMNPvM/view?usp=sharing)
+Video da apresentação [aqui](https://drive.google.com/file/d/1sMjAMuNB9rw12HjDlWG6rC2WBkyojLlF/view?usp=sharing)
