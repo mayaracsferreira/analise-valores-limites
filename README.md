@@ -30,6 +30,9 @@ Entrar na pasta do projeto
 cd analise-valores-limites
 ```
 
+### Valor nominal
+500
+
 ### Testes funcionais:
 
 Entrar na pasta da entrega
@@ -41,6 +44,8 @@ Instalação das dependências
 ```
 pip install -r requirements.txt
 ```
+
+#### Analise de valores limites
 
 Execução testes (linha de comando)
 ```
@@ -55,3 +60,18 @@ test-report.bat
 Visualizar arquivo *report.html* no navegador
 
 Video da apresentação [aqui](https://drive.google.com/file/d/1ViAE6t6Z6rGa-IFLM1Axr4JIOSzMNPvM/view?usp=sharing)
+
+#### Testes funcionais parametrizados:
+Execução testes (linha de comando)
+```
+pytest testes_parametrizados.py
+```
+
+Gerar relatório em HTML
+```
+test-param-report.bat
+```
+
+Visualizar arquivo *report-parametrized.html* no navegador
+
+Video da apresentação [aqui]()

@@ -12,4 +12,4 @@ aluguel = Aluguel(500.0, DIA)
 print("Mayara Ferreira")
 print("Aplicação consome a API Web aluguebug")
 valor_calculado = aluguel.calcula_valor()
-
+print(valor_calculado)
